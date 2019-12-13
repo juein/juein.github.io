@@ -1,7 +1,7 @@
 ---
 title: "second post"
 date: 2019-12-13 13:25:00 -0400
-categories: test
+categories: posts
 ---
 
 ## 두번째 포스팅 테스트
