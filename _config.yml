@@ -99,6 +99,6 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: Github
+    url: https://github.com/juein/juein.github.io
+    icon: fab fa-github-square
