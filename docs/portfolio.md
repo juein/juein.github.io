@@ -2,8 +2,6 @@
 title: Portfolio
 layout: posts
 permalink: /portfolio/
-show_excerpts: true
+collection: portfolio
 entries_layout: grid
 ---
-
-Sample document listing for the collection `_portfolio`.

@@ -2,6 +2,6 @@
 title: Posts
 layout: tags
 permalink: /posts/
-show_excerpts: true
+collection: posts
 entries_layout: list
 ---

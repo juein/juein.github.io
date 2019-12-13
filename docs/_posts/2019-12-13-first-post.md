@@ -2,6 +2,8 @@
 title: "first test"
 date: 2019-12-13 10:54:00 -0400
 categories: posts
+tags:
+  - test
 ---
 
 파일이름 : _posts/yyyy-mm-dd-postname.md 형식으로 작성하자
