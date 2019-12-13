@@ -1,5 +1,5 @@
 ---
-title: Portfolio Archive
+title: Portfolio
 layout: portfolio
 permalink: /portfolio/
 show_excerpts: true
