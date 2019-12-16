@@ -3,8 +3,8 @@ title: "Web Card Game"
 categories: work
 date: 2018-07-01 12:00:00 -0400
 image: 
-  path: https://raw.githubusercontent.com/juein/juein.github.io/master/img/work_thumbnail/cardgame_lg.jpg
-  thumbnail: https://raw.githubusercontent.com/juein/juein.github.io/master/img/work_thumbnail/cardgame_main.png
+  path: ../img/work_thumbnail/cardgame_lg.jpg
+  thumbnail: ../img/work_thumbnail/cardgame_main.png
   caption: ""
 ---
 
