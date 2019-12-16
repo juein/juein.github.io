@@ -4,6 +4,5 @@ layout: collection
 permalink: /work/
 collection: work
 entries_layout: grid
-sort_by: date (default) title
-sort_order: forward (default), reverse
+sort_order: reverse
 ---
