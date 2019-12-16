@@ -26,7 +26,7 @@ accesskey를 설정하는데 필요한 키 조합은 브라우저와 플랫폼�
 
 윈도우에서 대체로 accesskey는 alt키를 함께 누를 때 작동한다.
 
-> ![accesskey image](https://raw.githubusercontent.com/juein/juein.github.io/master/post/img/2019-03-25-HTML_attributes_1.png)
+> ![accesskey image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2019-03-25-HTML_attributes_1.png)
 > 
 > 이미지출처 : https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/accesskey
 
@@ -119,7 +119,7 @@ ex )
 	<menuitem label="테스트222"></menuitem>
 </menu>
 
-![contextmenu image](https://raw.githubusercontent.com/juein/juein.github.io/master/post/img/2019-03-25-HTML_attributes_2.png)
+![contextmenu image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2019-03-25-HTML_attributes_2.png)
 
 파이어폭스 브라우저에서 위 인풋을 클릭시 이와같은 사용자 지정 메뉴를 확인할 수 있다.
 
