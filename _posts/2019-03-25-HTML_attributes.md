@@ -27,13 +27,11 @@ accesskey를 설정하는데 필요한 키 조합은 브라우저와 플랫폼�
 윈도우에서 대체로 accesskey는 alt키를 함께 누를 때 작동한다.
 
 > ![accesskey image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2019-03-25-HTML_attributes_1.png)
-> 
 > 이미지출처 : https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/accesskey
 
 ex ) 
 ```
 <input type="text" name="name1" accesskey="1">
-
 <input type="text" name="name2" accesskey="2">
 ```
 <input type="text" name="name1" accesskey="1">
@@ -95,20 +93,15 @@ ex )
 
 
 > (브라우저 지원 확인)
-> 
 > https://www.w3schools.com/tags/att_global_contextmenu.asp
 
 
 ex )
 ```
 <input type="text" contextmenu="test">
-
 <menu type="context" id="test">
-
 	<menuitem label="테스트111" onclick="alert('111');"></menuitem>
-
 	<menuitem label="테스트222"></menuitem>
-
 </menu>
 ```
 
@@ -145,17 +138,14 @@ CSS의 속성 선택자로 접근하면 쉽다.
 
 ```
 [data-user='dev']{
-
   border: 1px solid red;
-
 }
 ```
 
 javascript 에서 data 속성은 dataset 으로 읽어낼 수 있다.
 
 ```
-document.querySelector('#test').dataset.user   // "dev"
-
+document.querySelector('#test').dataset.user     // "dev"
 document.querySelector('#test').dataset.number   // "123"
 ```
 
@@ -177,7 +167,6 @@ rtl : 오른쪽에서 왼쪽 방향으로
 ex )
 ```
 <p dir="ltr">text</p>
-
 <p dir="rtl">text</p>
 ```
 
@@ -198,17 +187,11 @@ HTML5 지원 사항중 하나로, 문서 안의 엘리먼트를 드래그&드랍
 ex ) HTML
 ```
 <div id="catImg">
-
   <img draggble="true" id="cat1" src="이미지 url" alt="cat1"/>
-
   <img draggble="true" id="cat2" src="이미지 url" alt="cat2" />
-
 </div>
-
 <div id="catBox">
-
     <p>여기로 고양이를 이동</p>
-
 </div>
 ```
 
@@ -324,11 +307,8 @@ HTML 페이지 안에서 'Tab'키로 포커스를 이동할 때의 순서를 정
 ex )
 ```
 <input type="text" tabindex="1" placeholder="첫번째">
-
 <input type="text" tabindex="3"  placeholder="세번째">
-
 <input type="text" tabindex="2"  placeholder="두번째">
-
 <input type="text" tabindex="4"  placeholder="네번째">
 ```
 
