@@ -2,8 +2,6 @@
 title: "Web Card Game"
 categories: work
 date: 2018-07-01 12:00:00 -0400
-image:
-    thumbnail: https://raw.githubusercontent.com/juein/juein.github.io/master/img/work_thumbnail/cardgame_main.png
 ---
 
 ## underscore.js 기반의 웹 카드 게임
