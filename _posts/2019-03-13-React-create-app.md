@@ -22,7 +22,7 @@ React + create-react-app + yarn + Node js 환경을 구축해보자
 
 ![guide image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2019-03-13-react_1.png)
 
-> NodeJs 공식 사이트(https://nodejs.org/ko/download)에서 
+> NodeJs 공식 사이트(https://nodejs.org/ko/download)에서   
 > Windows Installer를 내려받아 설치한다.
 
 
@@ -38,7 +38,7 @@ yarn은 npm 문제점을 개선한 패키지 매니저로 npm을 대체하여 �
 
 ![guide image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2019-03-13-react_3.png)
 
-> 공식사이트(https://yarnpkg.com/en/docs/install#windows-tab) 에서 
+> 공식사이트(https://yarnpkg.com/en/docs/install#windows-tab) 에서    
 > OS와 (Windows 선택) 버전을 선택 후 내려받아 설치한다.
 
 버전은 특별한 이유가 없다면 Stable로 안정된 버전을 받자.   
