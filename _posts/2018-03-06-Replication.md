@@ -61,21 +61,18 @@ Mysql Replication 은 마스터에 입력되는 쿼리를 바이너리 로그에
 현재 Mysql Replication 은 쿼리 단위로의 미러링을 지원한다.   
 이에 따른 중요 문제가 발생한다.   
 
-* * *
 > RAND() in updates does not replicate properly. 
 > Use RAND (some_non_rand_expr) if you are replicating updates with RAND(). 
 > You can, for example, use UNIX_TIMESTAMP() for the argument to RAND()
-* * *
 
 
 랜덤 함수에 의해 발생되어지는 자료에 대한 업데이트가 이루어지지 않는다.   
 랜덤 함수가 발생한 필드의 자료는 공란(null)로 입력된다.   
 
-* * *
 > LOAD DATA INFILE will be handled properly as long as the file 
 > still resides on the master server at the time of update propagation. 
 > LOAD LOCAL DATA INFILE will be skipped. 
-* * *
+
 
 load data infile 에 의한 데이터 입력시 마스터 서버에 파일이 남아 있는 상태에서만 가능하다.   
 이와는 반대로 load local data infile 은 업데이트 되지 않는다.   
