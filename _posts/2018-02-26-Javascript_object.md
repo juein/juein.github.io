@@ -21,7 +21,7 @@ date: 2018-02-26 00:00:00 -0400
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
+<br>
 
    
 ### 객체 리터럴   
@@ -53,7 +53,6 @@ document.write( car.window || "no window" );
 - 객체의 값은 할당에 의해 갱신된다. 이미 객체안에 존재하면 해당 속성의 값이 변경된다.    
 
 ```
-
 // 이미 존재하는 값에 값을 할당 : 속성 값 갱신
 car['color'] = 'white';
 
@@ -95,6 +94,8 @@ a의 값도 같이 바뀐다.
 
 
 
+
+
 ### 리플렉션
 
 - 변수의 타입을 체크하고 객체의 구조를 탐색하는 과정을 리플렉션 이라 한다.   
@@ -123,6 +124,7 @@ document.write(car.hasOwnProperty('color'));   // true 출력
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
 
 
 ### 삭제
@@ -135,7 +137,7 @@ delete car.wheel;
 ```
 
 
-### 촤소한의 전역변수 사용
+### 최소한의 전역변수 사용
 
 - 전역변수의 잦은사용은 프로그램의 유연성을 약화하기 때문에 가능하면 피하는것이 좋다.    
 전역변수 사용을 최소화 하는 방법중 하나로, 먼저 전역변수 하나를 생성 한 후    
