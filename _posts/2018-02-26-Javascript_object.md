@@ -23,7 +23,8 @@ date: 2018-02-26 00:00:00 -0400
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 
-### 객체 리터럴
+   
+### 객체 리터럴   
 - 중괄호 `{}` 로 둘러싸고 이름/값 쌍으로 표현하고, 속성:값 의 쌍들을 구분하는데에 `,` 를 사용   
 ```
 var car = {
@@ -50,7 +51,9 @@ document.write( car.window || "no window" );
 ### 속성값의 갱신
 
 - 객체의 값은 할당에 의해 갱신된다. 이미 객체안에 존재하면 해당 속성의 값이 변경된다.    
+
 ```
+
 // 이미 존재하는 값에 값을 할당 : 속성 값 갱신
 car['color'] = 'white';
 
@@ -62,6 +65,7 @@ car['make'] = 'hyndai';
 ### 참조
 
 - 객체는 참조 방식으로 전달된다. 복사되는게 아니다.
+
 ```
 var a = { number : 10 };
 var b = a;
@@ -104,6 +108,7 @@ document.write(typeof car.wheel);  // number 출력
 - 원하지 않는 속성을 배제하기 위해 hasOwnProperty 메소드를 사용하는 방법이 있다.   
 (hasOwnProperty 메소드는 객체에 특정 속성이 있는지 확인해서 true/false 값을 반환해주는 메소드로,    
 이 메소드를 사용하면 프로토타입 체인을 바라보지 않는다.)   
+
 ```
 document.write(car.hasOwnProperty('color'));   // true 출력
 ```
