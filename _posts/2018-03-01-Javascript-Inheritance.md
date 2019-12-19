@@ -3,7 +3,7 @@ title: "[JavaScript] 상속"
 categories: posts
 tags:
   - JavaScript
-date: 2018-02-29 00:00:00 -0400
+date: 2018-03-01 00:00:00 -0400
 ---
 
 
