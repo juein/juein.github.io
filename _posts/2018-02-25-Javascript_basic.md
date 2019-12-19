@@ -3,7 +3,7 @@ title: "[JavaScript] 기본, 타입, 함수"
 categories: posts
 tags:
   - JavaScript
-date: 2018-02-26 00:00:00 -0400
+date: 2018-02-25 00:00:00 -0400
 ---
 
 

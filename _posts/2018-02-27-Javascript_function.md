@@ -3,7 +3,7 @@ title: "[JavaScript] 함수"
 categories: posts
 tags:
   - JavaScript
-date: 2018-02-26 00:00:00 -0400
+date: 2018-02-27 00:00:00 -0400
 ---
 
 ## Function (함수)
@@ -198,7 +198,7 @@ person.prototype.mouth = 1;
 
 `console.dir(person)` 출력시 콘솔창의 모습   
 
-![guide image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2018-02-26-Javascript_4.png)
+![guide image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2018-02-26-Javascript_4.jpg)
 
 
 이러한 방법으로 기본적인 타입에 기능을 추가 할 수 있다.   
