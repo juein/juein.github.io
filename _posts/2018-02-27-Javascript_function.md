@@ -186,7 +186,7 @@ console.dir(person);
 
 `console.dir(person)` 출력시 콘솔창의 모습
 
-![guide image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2018-02-26-Javascript_3.png)
+![guide image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2018-02-26-Javascript_3.jpg)
 
 
 위 함수에 prototype 추가   
