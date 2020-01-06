@@ -7,6 +7,9 @@ image:
     thumbnail: ../img/work_thumbnail/cubeplatform_main.png
     caption: "Photo from [Cubeplatform](http://cubeplatform.co.kr/)"
 ---
+<style>
+.entry-feature-image{max-width: 500px;}
+</style>
 
 ## PC/Tablet/Mobile Responsive Web Publishing
 

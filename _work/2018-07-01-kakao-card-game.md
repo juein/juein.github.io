@@ -7,6 +7,9 @@ image:
   thumbnail: ../img/work_thumbnail/cardgame_main.png
   caption: ""
 ---
+<style>
+.entry-feature-image{max-width: 500px;}
+</style>
 
 ## underscore.js 기반의 웹 카드 게임
 ### 오픈소스을 활용하여 html / css / js를 약간씩 수정한 작업물

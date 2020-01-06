@@ -7,6 +7,9 @@ image:
     thumbnail: ../img/work_thumbnail/ktng_startup.jpg
     caption: "Photo from [innovation lab](https://ilab.joins.com/)"
 ---
+<style>
+.entry-feature-image{max-width: 500px;}
+</style>
 
 ## PC/Mobile Web Publishing & UI Develop
 

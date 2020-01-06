@@ -8,9 +8,7 @@ image:
   caption: ""
 ---
 <style>
-.entry-feature-image{
-    max-width: 500px;
-}
+.entry-feature-image{max-width: 500px;}
 </style>
 
 
