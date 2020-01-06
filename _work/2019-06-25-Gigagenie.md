@@ -7,6 +7,12 @@ image:
   thumbnail: ../img/work_thumbnail/gigaginie.jpg
   caption: ""
 ---
+<style>
+.entry-feature-image{
+    max-width: 500px;
+}
+</style>
+
 
 ## 컨테이너 셋팅 및 구현
 
