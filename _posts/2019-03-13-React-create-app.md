@@ -33,26 +33,26 @@ React + create-react-app + yarn + Node js 환경을 구축해보자
 
 ### <strike>2. yarn 설치</strike>
 
-npm은 의존하는 라이브러리 개수가 많으면 속도가 저하된다.  
-yarn은 npm 문제점을 개선한 패키지 매니저로 npm을 대체하여 사용할 수 있다.  
+<strike>npm은 의존하는 라이브러리 개수가 많으면 속도가 저하된다. </strike>      
+<strike>yarn은 npm 문제점을 개선한 패키지 매니저로 npm을 대체하여 사용할 수 있다. </strike>      
 
 ![guide image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2019-03-13-react_3.png)
 
 > 공식사이트(https://yarnpkg.com/en/docs/install#windows-tab) 에서    
 > OS와 (Windows 선택) 버전을 선택 후 내려받아 설치한다.
 
-버전은 특별한 이유가 없다면 Stable로 안정된 버전을 받자.   
+<strike>버전은 특별한 이유가 없다면 Stable로 안정된 버전을 받자. </strike>    
 
 ### 3. create-react-app 설치
 
 ![guide image](https://raw.githubusercontent.com/juein/juein.github.io/master/_posts/img/2019-03-13-react_4.png)
 
 
-<strike>cmd에서 yarn으로 create-react-app을 설치한다.</strike>  
-<strike>나는 설치 시 모든 디렉토리에서 사용하기 위해 global(전역)으로 설치하였다.</strike>  
+<strike>cmd에서 yarn으로 create-react-app을 설치한다.</strike>    
+<strike>나는 설치 시 모든 디렉토리에서 사용하기 위해 global(전역)으로 설치하였다.</strike>     
 
-create-react-app은 업데이트가 잦으므로   
-전역설치가 아닌 한번만 설치를 하는게 최신 버전을 유지하기 더 좋다   
+create-react-app은 버전 업데이트가 잦으므로     
+전역설치가 아닌 한번만 설치를 하는게 최신 버전을 유지하기 더 좋다.      
 `npx create-react-app 프로젝트명` 으로 설치하자
 
 - - - 
