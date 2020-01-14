@@ -53,7 +53,7 @@ class Test extends Component {
 
 
 
-개념적으로 React 컴포넌트는 항상 함수에 더 가깝다고 한다.
+개념적으로 React 컴포넌트는 함수형에 더 가깝다고 한다.
 
 친절한 리액트 개발진은 클래스 문법을 잘 모르는 사람을 위해 Hook을 도입해줬다.
 
@@ -65,7 +65,7 @@ class Test extends Component {
 
 ### Hook
 
-- Hook 소개 : https://ko.reactjs.org/docs/hooks-intro.html
+- Hook 소개 : [https://ko.reactjs.org/docs/hooks-intro.html](https://ko.reactjs.org/docs/hooks-intro.html)
 - 컴포넌트의 state 를 사용할 수 있는 useState 함수가, 생명주기를 다루기 위한 useEffect 함수가 추가되었다. 그 외 커스텀 Hook도 생성 가능. (보통 네이밍이 use~ 로 시작된다.)
 
 - Hook은 필수 사용이 아니다. 기존 컴포넌트와의 호환성도 100% 이며, Hook의 도입을 위해 기존 코드를 다시 작성할 필요가 없다.
