@@ -61,6 +61,14 @@ ReactDOM.render(<First />, document.getElementById('testText'));
 <div id="testText"></div>
 ```
 
+- jsx에서 html의 class 속성은 `className` 으로, label 태그의 `for` 속성은 `htmlFor` 등으로 작성해야한다.
+- `{ }` 식 안에 3항 연산자  `{test ? 'true' : 'false'}` , `{test && 'true'}` 작성 가능  
+- `<br >`, `<input >` 등의 태그는 항상 `<br />` , `<input />` 이렇게 닫아줘야한다. 
+- inline-style은 js형식으로 넣어줘야한다. ( js에서의 css는 `-` 가 들어가는 속성명의 첫자를 대문자로 하면 된다. `-mos`, `-webkit` 같은 벤더프리식스도 마찬가지 )
+
+
+
+
 <p class="codepen" data-height="524" data-theme-id="default" data-default-tab="js,result" data-user="juein" data-slug-hash="ExaozxP" style="height: 524px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Reack 커스텀 컴포넌트 생성">
   <span>See the Pen <a href="https://codepen.io/juein/pen/ExaozxP">
   Reack 커스텀 컴포넌트 생성</a> by juein (<a href="https://codepen.io/juein">@juein</a>)
@@ -69,6 +77,10 @@ ReactDOM.render(<First />, document.getElementById('testText'));
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 대충 이런 구조
+
+
+
+
 
 
 
