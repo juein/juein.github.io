@@ -1,5 +1,5 @@
 ---
-title: "[Web Publishing] DOUZON - 원격근무"
+title: "[Web Digital Content] DOUZON - 원격근무"
 categories: work
 date: 2020-03-10 00:00:00 -0400
 image: 
@@ -11,7 +11,7 @@ image:
 .entry-feature-image{max-width: 500px;}
 </style>
 
-## PC/Mobile Web Publishing & UI Develop
+## PC/Mobile Web Web Digital Content Develop & Publishing
 
 ---
 
