@@ -184,6 +184,19 @@ $main-bg: #000;
 }
 ```
 
+```
+  $imgWidth : 100, 200, 300;
+  $imgHeight : 50, 100, 200;
+
+  @for $i from 1 through 3{
+      &:nth-of-type(#{$i}){
+        background-image: url('img_#{$i}.jpg');
+        width: #{nth($imgWidth, $i)}px;
+        height: #{nth($imgHeight, $i)}px;
+      }
+  }
+```
+
 
 
 #### [each]
