@@ -85,14 +85,14 @@ collections:
 # Front Matter Defaults
 defaults:
   # Posts defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
-   # work defaults
+  #- scope:
+  #    path: "_posts"
+  #    type: posts
+  #  values:
+  #    layout: post
+  #    comments: true
+  #    share: true
+  # work defaults
   - scope:
       path: "_work"
       type: work
